@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    transition: all .1s ease-in;
+    font-family:Trebuchet MS, Trebuchet, Arial, sans-serif ;
+}
+body {
+    background:#3B3F45; ;
+}
+.header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Roboto;
+    background: #4A4F56;
+    padding-bottom: 12px;
+    padding-top: 19px;
+    color: #FF8984;
+}
+.header .container h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 4px;
+}
+.header .container p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+.dinner_list {
+    padding-top: 20px;
+}
+
+.dinner_list .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 534px;
+    height: calc(100vh - 82px);
+}
+.dinner_list .container ul {
+    list-style: none;
+    color: #fff ;
+    margin-bottom: 45px;
+    text-align: left;
+
+}
+.dinner_list li {
+    height: 45px;
+    width: 534px;
+    background: #88839E;
+    border-top:2px solid transparent;
+    border-bottom: 2px solid transparent;
+}
+.dinner_list li:nth-child(2n){
+    background: #7A7593;
+}
+.dinner_list input  {
+    height: 19px;
+    width: 19px;
+    margin: 12px 14px 12px 12px; 
+}
+
+input[type="checkbox"]:checked+span {
+    text-decoration: line-through;
+}
+.dinner_list label {
+    display:block;
+    min-width: 45px;
+}
+.dinner_list span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    color: #FFFFFF;
+    justify-content: center;
+}
+.dinner_list small {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+}
+.dinner_list li:hover {
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    background-color: #625E77;
+}
+.dinner_list li:active {
+    background-color: #FF8984; 
+}
+.down {
+    background: #4A4F56;
+    width: 534px;
+    height: 45px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.down h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #FF8984;
+}
+
